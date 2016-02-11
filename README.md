@@ -1,2 +1,2 @@
 # Git_Intro
-Git Basics
+Everything you need is in the wiki.  The link to the wiki is right up there.  Click it.
