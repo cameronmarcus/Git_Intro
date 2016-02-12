@@ -1,18 +1,18 @@
 <!doctype html>
 <html class="no-js" lang="">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>YOUR NAME</title>
-    <meta name="description" content="Test file for Git Intro">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-		body{
-		height: 100vh;
-		width: 100vw; 
-		padding; 0;
-		margin: 0;
-		}	
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>YOUR NAME</title>
+      <meta name="description" content="Test file for Git Intro">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+    		body{
+    		    height: 100vh;
+    		    width: 100vw;
+    		    padding: 0;
+    		    margin: 0;
+    		}
         button {
             display: block;
             margin: 10em auto 0 auto;
@@ -21,23 +21,25 @@
             font-family: helvetica, sans-serif;
             border: solid 1px #AAA;
             background-color: #eedc94;
-			cursor :pointer;
-			transition: background-color;
+            cursor: pointer;
+            transition: background-color 0.5s;
         }
-		button:hover{background-color: #ddeb83;}
-    </style>
-</head>
-<body>
-<button id="sayHi">Click Me</button>
-<script>
-    /****** CHANGE THE NEXT LINE BY SUBISTUTING YOUR NAME ******/
-    var myName = "YOUR NAME";
-	
-    function sayHi() {
-        alert("Hello "+ myName);
-    }
+  		button:hover{
+          background-color: #ddeb83;
+        }
+      </style>
+  </head>
+  <body>
+    <button id="sayHi">Click Me</button>
+    <script>
+        /****** CHANGE THE NEXT LINE BY SUBSTITUTING YOUR NAME ******/
+        var myName = "YOUR NAME";
 
-	document.getElementById("sayHi").addEventListener("click", sayHi);
-</script>
-</body>
+        function sayHi() {
+            alert("Hello "+ myName);
+        }
+
+    	document.getElementById("sayHi").addEventListener("click", sayHi);
+    </script>
+  </body>
 </html>
